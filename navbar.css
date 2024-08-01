@@ -1,0 +1,652 @@
+body{
+    margin: 0 auto;
+    font-family: Cambria, Georgia, 'Times New Roman', Times, serif;
+    background-image: url("photo/azalai-grand-hotel-pool.jpg");
+    object-fit: cover;
+}
+header{
+    display: block;
+    width: 100%;
+    background-color:floralwhite;
+    height: 115px;
+}
+.ouaga{
+    text-transform:uppercase; 
+    color:blue;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.nav1 .log1{
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.nav1 .log1 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /*transform: scaleX(-1);*/
+}
+.nav1 .log2{
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.nav1 .log2 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+}
+nav{
+    margin-top: 0;
+    padding-top: 0;
+    max-height: 25px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 0px;
+}
+nav ul li{
+    margin-right: 8%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+nav ul li a:hover{
+    text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.612);
+    font-size: 20px;
+    color: rgb(255, 5, 5);
+}
+
+footer{
+    width: 100%;
+    background-color:papayawhip;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+
+}
+.foot{
+    background-color: papayawhip;
+    color: #000;
+}
+.link{
+    color:black;
+    width: 100%;
+    margin-top: 50px;
+}
+.link ul{
+    color: black;
+    text-align: center;
+    margin-right: 40px;
+}
+.link ul li{
+    margin-bottom: 18px;
+    list-style-type: none;
+}
+.link ul li a{
+    /*color: rgb(0, 0, 0);*/
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+#equipe{
+    color:blue;
+    text-align: center;
+}
+.team{
+    display: flex;
+}
+.binome1{
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 0, 46, 0.805);
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 46, 0.805);
+    transition: all 1s;
+}
+.binome2{
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 0, 46, 0.805);
+    margin-left: 20px;
+    margin-right:auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 46, 0.805);
+    transition: all 1s;
+}
+.binome3{
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 0, 46, 0.805);
+    margin-right: auto;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 46, 0.805);
+    transition: all 1s;
+}
+.binome4{
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 0, 46, 0.805);
+    margin-left: 40px;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 46, 0.805);
+    transition: all 1s;
+}
+.copy{
+    /*color: #00000086;*/
+    color:blue;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.binome1 h3,
+.binome2 h3,
+.binome3 h3,
+.binome4 h3{
+    color: rgba(253, 222, 161, 0.867);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.binome1 p,
+.binome2 p,
+.binome3 p,
+.binome4 p{
+    color: rgba(223, 221, 221, 0.799);
+    text-align: justify;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.binome1 span img,
+.binome2 span img,
+.binome3 span img,
+.binome4 span img{
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: wheat;
+}
+.binome1 span a{
+    font: size 10%;;
+    
+}
+.binome1 span a,
+.binome2 span a,
+.binome3 span a,
+.binome4 span a{
+    text-decoration: none;
+    color: rgba(245, 222, 179, 0.817);
+    margin-left: 8px;
+}
+.binome1 .circle1,
+.binome2 .circle1,
+.binome3 .circle1,
+.binome4 .circle1{
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 95px;
+    transition: all 1s;
+}
+.circle1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.binome1 .circle1:hover,
+.binome2 .circle1:hover,
+.binome3 .circle1:hover,
+.binome4 .circle2:hover{
+    width: 90px;
+    height: 90px;
+    margin-top: 3px;
+    margin-left: 92px;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+.circle1 img:hover{
+    width: 90px;
+    height: 90px;
+}
+.binome1:hover,
+.binome2:hover,
+.binome3:hover,
+.binome4:hover{
+    box-shadow: 0px 0px 50px wheat;
+}
+.banniere{
+    padding: 90px;
+    padding-left: 80px;
+    height: 750px;
+    max-height:0%;
+    background-color:papayawhip;
+    background-image: url("../Images/banni.jpg");
+    object-fit:none;
+    background-repeat:round;
+    background-size: cover;
+    background-position: 100%;
+    color:black;
+}
+.title{
+    
+    font-size: 30px;
+    margin-left: 20px;
+    text-align:justify;
+    color:blue;  
+}
+.slogan{
+    font-size: 30px;
+    margin-left: 20px;
+    text-align:justify;
+    color:rgba(0, 0, 46, 0.805);
+    width: 30%;
+    padding-left: 15px;
+    border-left: 1px solid;
+    border-left-width: 7px;
+    border-left-color:rgba(247, 5, 5, 0.647);
+    font-size: 25px;
+}
+
+.bouton{
+    margin-left: 20px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    background-color:aqua;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.bouton a{
+    color:blue;
+    text-decoration:#000;
+}
+.bouton span{
+    margin-left: 4px;
+    padding-bottom: 8px;
+    color: wheat;
+}
+.bouton:hover{
+    height: 45px;
+    color: wheat;
+    font-size: 22px;
+    background-color:whitesmoke;
+}
+.patri{
+    display: block;
+    text-align:center;
+    padding:0%;
+    padding-left: 80px;
+    height: 275px;
+    background-color:papayawhip;
+    background-image: url("../Images/banni.jpg");
+    object-fit:none;
+    background-repeat:round;
+    background-size: cover;
+    background-position: 100%;
+    color:black;
+}
+.patri div h2{
+    padding: auto;
+    margin: auto;
+    font-size: 30px;
+    color:blue;
+}
+.patri div p{
+    font-size: 20px;
+}
+#savoir {
+    text-decoration-thickness:initial;
+    color: #000;
+
+}
+.btn{
+    margin-left: 20px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    background-color:aqua;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.btn a{
+    margin: auto;
+    padding: auto;
+    color:blue;
+    text-decoration:#000;
+}
+.btn span{
+    margin: auto;
+    padding: auto;
+    margin-left: 4px;
+    padding-bottom: 8px;
+    color: wheat;
+}
+.btn:hover{
+    height: 45px;
+    color: wheat;
+    font-size: 22px;
+    background-color:whitesmoke;
+}
+.hotel{
+    display: block;
+    text-align:center;
+    padding:0%;
+    padding-left: 80px;
+    height: 300px;
+    background-color:papayawhip;
+    background-image: url("../Images/banni.jpg");
+    object-fit:none;
+    background-repeat:round;
+    background-size: cover;
+    background-position: 100%;
+    color:black;
+}
+.hotel div h2{
+    font-size: 30px;
+    color:blue;
+}
+.hotel div p{
+    font-size: 20px;
+}
+.gal{
+    display: block;
+    text-align:center;
+    padding:0%;
+    padding-left: 80px;
+    height: 205px;
+    background-color:papayawhip;
+    background-image: url("../Images/banni.jpg");
+    object-fit:none;
+    background-repeat:round;
+    background-size: cover;
+    background-position: 100%;
+    color:black;
+}
+.gal div h2{
+    font-size: 30px;
+    color:blue;
+}
+.gal div p{
+    font-size: 20px;
+}
+
+
+
+/*ResponsivitÃ©*/
+@media only screen and (max-width: 1000px) {
+    .slogan{
+        width: 40%;
+    }
+    .bouton{
+        margin-bottom: 30px;
+        margin-top: 5px;
+    }
+    .patri{
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+    .hotel{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .gal{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .slogan{
+        width: 60%;
+    }
+    .bouton{
+        margin-bottom: 30px;
+    }
+    .patri{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .hotel{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .gal{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 668px) {
+    .slogan{
+        width: 90%;
+        margin-left: 5px;
+    }
+    .bouton{
+        margin-bottom:auto;
+    }
+    .team{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .binome1{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome2{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome3{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome4{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .link{
+        margin-top: 60px;
+    }
+    .link ul{
+        margin-right: 68px;
+    }
+    .patri{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .patri div p{
+        text-align: justify;
+    }
+    .hotel{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .hotel div p{
+        text-align: justify;
+    }
+    .gal{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .gal div p{
+        text-align: justify;
+    }
+}
+
+
+
+
+/* Styles généraux pour la responsivité du contenu principal */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Banniere section */
+.banniere {
+    padding: 20px;
+    width: 100%;
+    margin: 20px 0;
+    height: 450px;
+}
+
+.banniere .title h1 {
+    font-size: 36px;
+}
+
+.banniere .slogan p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.banniere .bouton {
+    margin-top: 20px;
+}
+
+.banniere .bouton a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Section patrimoniaux */
+.patri {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.patri h2 {
+    font-size: 24px;
+}
+
+.patri p {
+    font-size: 16px;
+}
+
+.patri .btn {
+    margin-top: 10px;
+}
+
+.patri .btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Section hôtel */
+.hotel {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.hotel h2 {
+    font-size: 24px;
+}
+
+.hotel p {
+    font-size: 16px;
+}
+
+.hotel .btn {
+    margin-top: 10px;
+}
+
+.hotel .btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Section galerie */
+.gal {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.gal h2 {
+    font-size: 24px;
+}
+
+.gal p {
+    font-size: 16px;
+}
+
+.gal .btn {
+    margin-top: 10px;
+}
+
+.gal .btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    /* Ajustements pour les écrans plus petits */
+    .banniere .title h1 {
+        font-size: 24px;
+    }
+
+    .banniere .slogan p {
+        font-size: 14px;
+    }
+
+    .patri h2, .hotel h2, .gal h2 {
+        font-size: 20px;
+    }
+
+    .patri p, .hotel p, .gal p {
+        font-size: 14px;
+    }
+
+    .banniere, .patri, .hotel, .gal {
+        padding: 10px;
+    }
+}

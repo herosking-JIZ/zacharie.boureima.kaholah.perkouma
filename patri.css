@@ -1,0 +1,428 @@
+header{
+    display: block;
+    width: 100%;
+    background-color:floralwhite;
+    height: 115px;
+}
+.ouaga{
+    text-transform:uppercase; 
+    color:blue;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.nav1 .log1{
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.nav1 .log1 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /*transform: scaleX(-1);*/
+}
+.nav1 .log2{
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.nav1 .log2 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+}
+nav{
+    margin-top: 0;
+    padding-top: 0;
+    max-height: 25px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 0px;
+}
+nav ul li{
+    margin-right: 8%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+nav ul li a:hover{
+    text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.612);
+    font-size: 20px;
+    color: rgb(255, 5, 5);
+}
+footer{
+    width: 100%;
+    background-color:papayawhip;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+
+}
+.foot{
+    background-color: papayawhip;
+    color: #000;
+}
+.link{
+    color:black;
+    width: 100%;
+    margin-top: 50px;
+}
+.link ul{
+    color: black;
+    text-align: center;
+    margin-right: 40px;
+}
+.link ul li{
+    margin-bottom: 18px;
+    list-style-type: none;
+}
+.link ul li a{
+    /*color: rgb(0, 0, 0);*/
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+#equipe{
+    color:blue;
+    text-align: center;
+}
+.team{
+    display: flex;
+}
+.binome1{
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 0, 46, 0.805);
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 46, 0.805);
+    transition: all 1s;
+}
+.binome2{
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 0, 46, 0.805);
+    margin-left: 20px;
+    margin-right:auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 46, 0.805);
+    transition: all 1s;
+}
+.binome3{
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 0, 46, 0.805);
+    margin-right: auto;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 46, 0.805);
+    transition: all 1s;
+}
+.binome4{
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 0, 46, 0.805);
+    margin-left: 40px;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 46, 0.805);
+    transition: all 1s;
+}
+.copy{
+    /*color: #00000086;*/
+    color:blue;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.binome1 h3,
+.binome2 h3,
+.binome3 h3,
+.binome4 h3{
+    color: rgba(253, 222, 161, 0.867);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.binome1 p,
+.binome2 p,
+.binome3 p,
+.binome4 p{
+    color: rgba(223, 221, 221, 0.799);
+    text-align: justify;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.binome1 span img,
+.binome2 span img,
+.binome3 span img,
+.binome4 span img{
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: wheat;
+}
+.binome1 span a{
+    font: size 10%;;
+    
+}
+.binome1 span a,
+.binome2 span a,
+.binome3 span a,
+.binome4 span a{
+    text-decoration: none;
+    color: rgba(245, 222, 179, 0.817);
+    margin-left: 8px;
+}
+.binome1 .circle1,
+.binome2 .circle1,
+.binome3 .circle1,
+.binome4 .circle1{
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 95px;
+    transition: all 1s;
+}
+.circle1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.binome1 .circle1:hover,
+.binome2 .circle1:hover,
+.binome3 .circle1:hover,
+.binome4 .circle2:hover{
+    width: 90px;
+    height: 90px;
+    margin-top: 3px;
+    margin-left: 92px;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+.circle1 img:hover{
+    width: 90px;
+    height: 90px;
+}
+.binome1:hover,
+.binome2:hover,
+.binome3:hover,
+.binome4:hover{
+    box-shadow: 0px 0px 50px wheat;
+}
+.section h2{
+    font-size: 30px;
+    text-align: center;
+    color:blue;
+}
+.section p{
+    color:black;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.carde{
+    background-image: url("../Images/formulaire.jpg");
+    object-fit: cover;
+    padding: 20px;
+    background-color: papayawhip;
+}
+.cards{
+    margin-top: 35px;
+}
+
+.carousel {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  
+  .carousel-item {
+    --items: 10;
+    --width: clamp(150px, 30vw, 300px);
+    --height: clamp(200px, 40vw, 400px);
+    --x: calc(var(--active) * 800%);
+    --y: calc(var(--active) * 200%);
+    --rot: calc(var(--active) * 120deg);
+    --opacity: calc(var(--zIndex) / var(--items) * 3 - 2);
+    overflow: hidden;
+    position: absolute;
+    z-index: var(--zIndex);
+    width: var(--width);
+    height: var(--height);
+    margin: calc(var(--height) * -0.5) 0 0 calc(var(--width) * -0.5);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transform-origin: 0% 100%;
+    box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.5);
+    background: black;
+    pointer-events: all;
+    transform: translate(var(--x), var(--y)) rotate(var(--rot));
+    transition: transform 0.8s cubic-bezier(0, 0.02, 0, 1);
+  }
+  .carousel-item .carousel-box {
+    position: absolute;
+    z-index: 1;
+    top: 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
+    opacity: var(--opacity);
+    font-family: "Orelo-sw-db", serif;
+  }
+  .carousel-item .carousel-box:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5));
+  }
+  .carousel-item .title {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    bottom: 20px;
+    left: 20px;
+    transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
+    font-size: clamp(20px, 3vw, 30px);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  .carousel-item .num {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    top: 10px;
+    left: 20px;
+    transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
+    font-size: clamp(20px, 10vw, 80px);
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    pointer-events: none;
+  }
+
+  .btn{
+    text-align: center;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.726);
+    border-radius: 10px;
+}
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn span{
+    color: wheat;
+}
+
+/*Responsivité*/
+@media only screen and (max-width: 1000px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 668px) {
+    .slogan{
+        width: 90%;
+        margin-left: 5px;
+    }
+    .bouton{
+        margin-bottom: 30px;
+    }
+    .team{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .binome1{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome2{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome3{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome4{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .link{
+        margin-top: 60px;
+    }
+    .link ul{
+        margin-right: 68px;
+    }
+    .patri{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .patri div p{
+        text-align: justify;
+    }
+    .hotel{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .hotel div p{
+        text-align: justify;
+    }
+    .gal{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .gal div p{
+        text-align: justify;
+    }
+}
